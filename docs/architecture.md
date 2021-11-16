@@ -1,5 +1,7 @@
 # Architecture
 
+[Back to README](../README.md)
+
 ![architecture](./images/argo-rollout-architecture.png)
 
 * **Rollouts controller** - main controller that monitors the cluster for events and reacts whenever a resource of type `Rollout` is changed. The controller will read all the details of the rollout and bring the cluster to the same state as described in the rollout definition
