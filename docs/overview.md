@@ -1,5 +1,7 @@
 # Overview
 
+[Back to README](../README.md)
+
 * A Kubernetes controller and set of CRDs which provide advanced deployment capabilities such as
   * blue-green, canary, 
   * canary analysis, 
@@ -54,7 +56,3 @@
 * **A user wants to use the normal Rolling Update strategy from the deployment**. 
   * If a user uses the canary strategy with no steps, the rollout will use the max surge and max unavailable values to roll to the new version. ([example](https://github.com/argoproj/argo-rollouts/blob/master/examples/rollout-rolling-update.yaml))
 
-## Examples
-
-* The [example directory](https://github.com/argoproj/argo-rollouts/tree/master/examples)
-* The [Argo Rollouts Demo application](https://github.com/argoproj/rollouts-demo)
