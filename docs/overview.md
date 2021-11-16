@@ -2,6 +2,8 @@
 
 [Back to README](../README.md)
 
+## What is it?
+
 * A Kubernetes controller and set of CRDs which provide advanced deployment capabilities such as
   * blue-green, canary, 
   * canary analysis, 
@@ -20,7 +22,7 @@
 
 > In large scale high-volume production environments, a rolling update is often considered too risky of an update procedure since it provides no control over the blast radius, may rollout too aggressively, and provides no automated rollback upon failures.
 
-## Controller features
+## Features
 
 * Blue-Green update strategy
 * Canary update strategy
